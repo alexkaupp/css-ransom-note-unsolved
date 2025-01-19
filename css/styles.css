@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
 
 * {
   padding: 0;
@@ -57,248 +60,131 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
+  background-color: blue;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
+  background-color: brown;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
   font-size: 60px;
   font-weight: normal;
   color: coral;
+  background-color: darkolivegreen;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
-
-.didDLetter {
+.style-one {
+  font-size: 40px;
+  font-style: italic;
+  color: green;
+  background-color: pink;
+  font-family: "Matemasie", serif;
 }
 
-.didILetter {
+.style-two {
+  font-size: 36px;
+  font-weight: bold;
+  color: rebeccapurple;
+  background-color: goldenrod;
+  font-family: "Baskervville SC", serif;
 }
 
-.didDTwoLetter {
+.style-three {
+  font-size: 75px;
+  font-weight: normal;
+  text-transform: capitalize;
+  background-color: aquamarine;
+  font-family: "Sixtyfour Convergence", serif;
 }
 
-/* THE word */
-
-.theTLetter {
+.style-four {
+  font-size: 60px;
+  font-weight: normal;
+  color: pink;
+  background-color: hotpink;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
 }
 
-.theHLetter {
+.style-five {
+  font-size: 80px;
+  font-weight: 400;
+  color: maroon;
+  background-color: olive;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.theELetter {
+.style-six {
+  font-size: 60px;
+  font-weight: 700;
+  color: burlywood;
+  background-color: darkcyan;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* FRONT-END word */
-
-.frontendFLetter {
+.style-seven {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(85, 150, 140);
+  background-color: purple;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.frontendRLetter {
+.style-eight {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(250, 10, 220);
+  background-color: peachpuff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: monospace;
 }
 
-.frontendOLetter {
+.style-nine {
+  font-size: 90px;
+  font-weight: 700;
+  color: rgb(150, 150, 50);
+  background-color: forestgreen;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
-.frontendNLetter {
+.style-ten {
+  font-size: 75px;
+  font-weight: 100;
+  color: hsl(110, 75%, 45%);
+  background-color: navy;
+  font-family: monospace;
 }
 
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
+.style-eleven {
+  font-size: 25px;
+  font-weight: bolder;
+  color: hsl(20, 40%, 40%);
+  background-color: steelblue;
+  text-decoration: none;
+  text-transform: none;
+  font-family: monospace;
 }
